@@ -16,7 +16,8 @@ public:
 	Vehicle();
 	void setManu(string);
 	void setYear(int);
-	string setManu;
-	int setYear;
+	string getManu();
+	int getYear();
+	void displayInfo(Vehicle&);
 };
 
