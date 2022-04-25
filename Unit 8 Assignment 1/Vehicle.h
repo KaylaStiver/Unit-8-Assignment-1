@@ -18,6 +18,6 @@ public:
 	void setYear(int);
 	string getManu();
 	int getYear();
-	void displayInfo(Vehicle&);
+	void displayVehicle();
 };
 

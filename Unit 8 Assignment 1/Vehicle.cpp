@@ -28,7 +28,7 @@ string Vehicle::getManu() {
 int Vehicle::getYear() {
 	return year;
 }
-void Vehicle::displayInfo(Vehicle& userVehicle) {
+void Vehicle::displayVehicle() {
 	cout << "Manufacturer: " << getManu() << endl;
 	cout << "Year: " << getYear() << endl;
 }
