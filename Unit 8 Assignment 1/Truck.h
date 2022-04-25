@@ -14,7 +14,7 @@ private:
 	int towCap;
 public:
 	Truck();
-	void setTowCap();
+	void setTowCap(int);
 	int getTowCap();
 	void displayTruck();
 };

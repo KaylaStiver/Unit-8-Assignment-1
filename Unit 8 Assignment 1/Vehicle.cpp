@@ -15,12 +15,12 @@ Vehicle::Vehicle() {
 void Vehicle::setManu(string userManu) {
 	cout << "Please enter car manufacturer: ";
 	cin >> userManu;
-	cout << endl;
+	manufacturer = userManu;
 }
 void Vehicle::setYear(int userYear) {
 	cout << "Please enter car model year: ";
 	cin >> userYear;
-	cout << endl;
+	year = userYear;
 }
 string Vehicle::getManu() {
 	return manufacturer;

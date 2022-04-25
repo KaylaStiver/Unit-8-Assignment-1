@@ -14,7 +14,7 @@ private:
 	int numDoors;
 public:
 	Car();
-	void setDoors();
+	void setDoors(int);
 	int getDoors();
 	void displayCar();
 };

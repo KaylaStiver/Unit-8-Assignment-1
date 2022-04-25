@@ -2,7 +2,6 @@
 // CIS 1202 800
 // April 25th 2022
 
-#pragma once
 #include <iostream>
 #include <string>
 #include "Vehicle.h"
@@ -13,9 +12,10 @@ using namespace std;
 Truck::Truck() {
 	towCap = 5000;
 }
-void Truck::setTowCap() {
+void Truck::setTowCap(int userTowCap) {
 	cout << "Enter towing capacity: ";
-	cin >> towCap;
+	cin >> userTowCap;
+	towCap = userTowCap;
 }
 int Truck::getTowCap() {
 	return towCap;
